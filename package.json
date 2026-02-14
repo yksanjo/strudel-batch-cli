@@ -1,0 +1,32 @@
+{
+  "name": "strudel-batch-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for batch processing multiple audio files to Strudel patterns",
+  "main": "dist/index.js",
+  "bin": {
+    "strudel-batch": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "cli",
+    "audio",
+    "strudel",
+    "batch",
+    "music"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
